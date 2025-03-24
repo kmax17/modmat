@@ -1,0 +1,14 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "modmat",
+  "outputfilename": "modmat",
+  "assetdir": "frontend/out",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "kmax17",
+    "email": "max@maxkaya.com"
+  }
+}
