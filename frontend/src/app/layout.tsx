@@ -9,7 +9,7 @@ export default async function RootLayout({
 
     return (
         <html lang="en">
-        <body>
+        <body className={"dark"}>
         <Providers>
             <div className={"min-h-[100vh]"}>{children}</div>
         </Providers>
